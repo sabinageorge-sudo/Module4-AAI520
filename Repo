@@ -1,0 +1,32 @@
+investment-research-agent/
+│
+├── README.md                  # Project overview, setup instructions
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Ignore data, cache, etc.
+│
+├── data/                      # Raw and processed datasets
+│   ├── news/                  # News articles or summaries
+│   ├── filings/               # SEC filings
+│   └── financials/            # Stock data from yfinance
+│
+├── notebooks/                 # Exploratory analysis and prototyping
+│   ├── financial_analysis.ipynb
+│   ├── news_pipeline.ipynb
+│   └── agent_workflow.ipynb
+│
+├── src/                       # Core source code
+│   ├── agent/                 # Agent logic and orchestration
+│   │   ├── planner.py
+│   │   ├── router.py
+│   │   ├── evaluator.py
+│   │   └── memory.py
+│   ├── pipelines/            # Prompt chaining workflows
+│   │   ├── news_ingest.py
+│   │   ├── summarizer.py
+│   │   └── classifier.py
+│   ├── retrievers/           # FAISS or vector DB setup
+│   └── utils/                # Helpers, configs, logging
+│
+├── tests/                    # Unit tests and evaluation scripts
+│
+└── docs/                     # Architecture diagrams, team notes, references
