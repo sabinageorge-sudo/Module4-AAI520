@@ -8,8 +8,8 @@ This project builds an autonomous Investment Research Agent capable of analyzing
 | Name        | Role                        | Focus Area                          |
 |-------------|-----------------------------|--------------------------------------|
 | Senthil Arasu T | Financial Data Analyst      | Yahoo Finance, earnings, valuation   |
-| Sabina George | News & Sentiment Analyst    | NewsAPI/Kaggle, prompt chaining      |
-| Smita Kasar   | Agent Architect & Evaluator | Routing, memory, evaluator–optimizer |
+| Smita Kasar | News & Sentiment Analyst    | NewsAPI/Kaggle, prompt chaining      |
+| Sabina George  | Agent Architect & Evaluator | Routing, memory, evaluator–optimizer |
 ## 🧩 Key Features
 
 - **RetrievalQA**: Answers open-domain questions using grounded financial data
