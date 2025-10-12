@@ -1,4 +1,4 @@
-# 💼 Autonomous Investment Research Agent
+# 💼 Multi-Agent Financial Analysis System 
 
 ## 🧠 Overview
 
@@ -7,9 +7,9 @@ This project builds an autonomous Investment Research Agent capable of analyzing
 
 | Name        | Role                        | Focus Area                          |
 |-------------|-----------------------------|--------------------------------------|
-| Senthil Arasu T | Financial Data Analyst      | Yahoo Finance, earnings, valuation   |
-| Smita Kasar | News & Sentiment Analyst    | NewsAPI/Kaggle, prompt chaining      |
-| Sabina George  | Agent Architect & Evaluator | Routing, memory, evaluator–optimizer |
+| Senthil Arasu T | Planner agent      | Yahoo Finance, earnings, valuation   |
+| Smita Kasar | Retriever Agent    | NewsAPI/Kaggle, prompt chaining      |
+| Sabina George  | Analyzer Agent | Routing, memory, evaluator–optimizer |
 ## 🧩 Key Features
 
 - **RetrievalQA**: Answers open-domain questions using grounded financial data
